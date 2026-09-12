@@ -1,11 +1,11 @@
 version: "4.1.0-testing.25"
 image: ghcr.io/riddix/home-assistant-matter-hub-addon
-slug: hamh-testing
-name: Home-Assistant-Matter-Hub (Testing)
+slug: charlie_matter_fireplace_testing
+name: Charlie Matter Fireplace (Testing)
 description: "⚠️ TESTING VERSION - May contain BREAKING CHANGES! Experimental features, unstable code, and cutting-edge Matter.js updates. Use at your own risk. Not recommended for production use."
-url: https://github.com/riddix/home-assistant-matter-hub/tree/testing
+url: https://github.com/charlie508010/home-assistant-addons-fireplace
 panel_icon: mdi:bug
-panel_title: Matter Hub Testing
+panel_title: Charlie Matter Fireplace Testing
 homeassistant: 2024.1.0
 homeassistant_api: true
 host_network: true
