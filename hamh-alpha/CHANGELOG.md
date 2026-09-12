@@ -1,6 +1,11 @@
-# v2.1.0-alpha.897
+# v2.1.0-alpha.898
 
 ## Changes
+
+- feat: expose a mapped Home Assistant select as named Matter stages on the same light endpoint
+- feat: add persistent mapping fields for the stage entity, name, and options
+
+## Upstream base
 
 - docs: list the alpha.897 additions (912e3a6e)
 - docs: vacuum updating section, alexa manual code and suffix, heap hints (965f0f91)

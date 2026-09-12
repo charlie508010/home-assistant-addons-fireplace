@@ -1,5 +1,5 @@
-version: "2.1.0-alpha.897"
-image: ghcr.io/riddix/home-assistant-matter-hub-addon
+version: "2.1.0-alpha.898"
+image: ghcr.io/charlie508010/home-assistant-matter-hub-fireplace-addon
 slug: charlie_matter_fireplace_alpha
 name: Charlie Matter Fireplace (Alpha)
 description: "⚠️ ALPHA VERSION - For testing only! Publish your entities from Home Assistant to any Matter-compatible controller like Alexa, Apple Home or Google Home."
