@@ -1,3 +1,7 @@
+# v2.1.0-alpha.902
+
+- Expose custom Mode Select labels independently from Home Assistant's raw option values (for example, show `Stufe 0`–`Stufe 5` while sending `C0`–`C5`).
+
 # v2.1.0-alpha.901
 
 ## Changes
