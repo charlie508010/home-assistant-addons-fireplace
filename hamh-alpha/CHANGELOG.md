@@ -1,3 +1,7 @@
+# v2.1.0-alpha.903
+
+- Declare the combined Kamin endpoint as both Matter On/Off Light and Mode Select, without Level Control, so Alexa can map power and named fireplace stages on one device.
+
 # v2.1.0-alpha.902
 
 - Expose custom Mode Select labels independently from Home Assistant's raw option values (for example, show `Stufe 0`–`Stufe 5` while sending `C0`–`C5`).
