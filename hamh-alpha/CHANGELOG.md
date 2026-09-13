@@ -1,9 +1,9 @@
-# v2.1.0-alpha.900
+# v2.1.0-alpha.901
 
 ## Changes
 
-- fix: keep the mapped Mode Select cluster on the Kamin lamp profile without advertising the unsupported standalone Mode Select device type
-- test: verify the lamp-only Matter device metadata and named stage commands used by Alexa
+- fix: expose a light with mapped fireplace stages as an On/Off Lamp plus Mode Select, so Alexa no longer presents or targets brightness
+- test: verify that the combined Kamin endpoint has stages but no Matter Level Control cluster
 
 ## Upstream base
 
