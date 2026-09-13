@@ -1,9 +1,9 @@
-# v2.1.0-alpha.899
+# v2.1.0-alpha.900
 
 ## Changes
 
-- fix: advertise the mapped stage selector as a Matter Mode Select device type on the same light endpoint
-- test: verify Alexa-compatible Mode Select device metadata and named stage commands
+- fix: keep the mapped Mode Select cluster on the Kamin lamp profile without advertising the unsupported standalone Mode Select device type
+- test: verify the lamp-only Matter device metadata and named stage commands used by Alexa
 
 ## Upstream base
 
