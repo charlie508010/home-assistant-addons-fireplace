@@ -1,9 +1,9 @@
-# v2.1.0-alpha.898
+# v2.1.0-alpha.899
 
 ## Changes
 
-- feat: expose a mapped Home Assistant select as named Matter stages on the same light endpoint
-- feat: add persistent mapping fields for the stage entity, name, and options
+- fix: advertise the mapped stage selector as a Matter Mode Select device type on the same light endpoint
+- test: verify Alexa-compatible Mode Select device metadata and named stage commands
 
 ## Upstream base
 
