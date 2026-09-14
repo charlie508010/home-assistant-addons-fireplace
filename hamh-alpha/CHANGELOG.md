@@ -1,3 +1,9 @@
+# v2.1.0-alpha.908
+
+- Add four independently named Matter stage profiles for one Home Assistant select: Mode Select, Basic Video Player, Speaker, and Fan.
+- Map `Stufe 0`–`Stufe 5` to native Matter mode, media input, level, and fan-speed values while sending the original Home Assistant select value such as `C0`–`C5`.
+- Preserve duplicate composed entities as separate Matter endpoints with stable, distinct identities so controllers can import every compatibility profile.
+
 # v2.1.0-alpha.907
 
 - Expose a Home Assistant select as either a Matter On/Off Light (`0x0100`) or On/Off Plug-in Unit (`0x010A`) while preserving the configured select-option actions.
