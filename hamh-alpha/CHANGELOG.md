@@ -1,3 +1,9 @@
+# v2.1.0-alpha.906
+
+- Allow a custom controller-facing name on every composed sub-endpoint.
+- Support the Matter-correct fireplace test topology: `Kamin` as the primary endpoint with `Flammenfarbe`, plus the child Mode Select endpoint `Flammenhelligkeit`.
+- Add a regression test for both named Mode Select controls in one composed Matter device.
+
 # v2.1.0-alpha.905
 
 - Keep Kamin as one Extended Color Light endpoint and declare Mode Select as a second device type on that same endpoint.
