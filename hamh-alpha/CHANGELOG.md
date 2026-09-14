@@ -1,3 +1,9 @@
+# v2.1.0-alpha.910
+
+- Add the real Matter Laundry Washer device type (`0x0073`) with six named `Stufe 0`–`Stufe 5` washer modes.
+- Allow one Washer endpoint to expose the fireplace's real power state/control, operational status, and current temperature.
+- Support a composed Washer test with separate `Kamin Power` and `Kamin Temperatur` child endpoints while keeping the Washer as the named parent.
+
 # v2.1.0-alpha.909
 
 - Add five more independent Matter compatibility profiles for fireplace stages: On/Off Light with Mode Select, Dishwasher, Robotic Vacuum Cleaner, Air Purifier, and Window Covering.
