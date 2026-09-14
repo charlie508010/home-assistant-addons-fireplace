@@ -1,3 +1,9 @@
+# v2.1.0-alpha.909
+
+- Add five more independent Matter compatibility profiles for fireplace stages: On/Off Light with Mode Select, Dishwasher, Robotic Vacuum Cleaner, Air Purifier, and Window Covering.
+- Keep controller-facing names distinct so Alexa reveals which profile supplies usable custom labels and six-stage controls.
+- Preserve the original four Mode Select, Basic Video Player, Speaker, and Fan profiles for a complete side-by-side test.
+
 # v2.1.0-alpha.908
 
 - Add four independently named Matter stage profiles for one Home Assistant select: Mode Select, Basic Video Player, Speaker, and Fan.
