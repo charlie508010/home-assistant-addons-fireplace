@@ -1,3 +1,9 @@
+# v2.1.0-alpha.907
+
+- Expose a Home Assistant select as either a Matter On/Off Light (`0x0100`) or On/Off Plug-in Unit (`0x010A`) while preserving the configured select-option actions.
+- Send a separate custom `NodeLabel` for every test device so Alexa can import and display each controller-facing name independently.
+- Keep Mode Select out of this compatibility test.
+
 # v2.1.0-alpha.906
 
 - Allow a custom controller-facing name on every composed sub-endpoint.
