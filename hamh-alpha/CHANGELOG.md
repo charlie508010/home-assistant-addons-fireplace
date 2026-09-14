@@ -1,3 +1,8 @@
+# v2.1.0-alpha.905
+
+- Keep Kamin as one Extended Color Light endpoint and declare Mode Select as a second device type on that same endpoint.
+- Expose `Flammenfarbe` and `Stufe 0`–`Stufe 5` without presenting an undeclared extra cluster to Alexa.
+
 # v2.1.0-alpha.903
 
 - Declare the combined Kamin endpoint as both Matter On/Off Light and Mode Select, without Level Control, so Alexa can map power and named fireplace stages on one device.
