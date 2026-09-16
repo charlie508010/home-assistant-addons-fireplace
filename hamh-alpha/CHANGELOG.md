@@ -1,3 +1,9 @@
+# v2.1.0-alpha.919
+
+- Expose only `Stufe 1`–`Stufe 5` for the experimental Dishwasher Mode and Temperature Control lists.
+- Match Dishwasher Mode IDs 1–5 to the same Home Assistant stages; reject unsupported Matter mode IDs without sending an action.
+- Keep the internal `Stufe 0` helper option and all heater mappings unchanged. Alexa voice behavior still requires a live test.
+
 # v2.1.0-alpha.918
 
 - Publish the experimental Dishwasher endpoint with Dishwasher Mode and an alarm-free Dishwasher Alarm alongside Temperature Control levels `Stufe 0`–`Stufe 5` and Operational State.
