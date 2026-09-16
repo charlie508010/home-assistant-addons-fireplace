@@ -1,3 +1,9 @@
+# v2.1.0-alpha.918
+
+- Publish the experimental Dishwasher endpoint with Dishwasher Mode and an alarm-free Dishwasher Alarm alongside Temperature Control levels `Stufe 0`–`Stufe 5` and Operational State.
+- Keep invalid temperature levels rejected before any Home Assistant action; the existing heater mapping is unchanged.
+- Alexa display of Temperature Control levels remains a live compatibility test, not a confirmed feature.
+
 # v2.1.0-alpha.917
 
 - Add an opt-in experimental Matter Dishwasher Temperature Control level profile for a Home Assistant select with exactly `Stufe 0`–`Stufe 5`.
