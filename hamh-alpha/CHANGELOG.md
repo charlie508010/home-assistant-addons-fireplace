@@ -1,3 +1,9 @@
+# v2.1.0-alpha.917
+
+- Add an opt-in experimental Matter Dishwasher Temperature Control level profile for a Home Assistant select with exactly `Stufe 0`–`Stufe 5`.
+- Reject out-of-range level commands before sending any Home Assistant action. Keep the existing Dishwasher Mode profile unchanged.
+- Test whether Alexa exposes this Matter Temperature Control level profile as a numeric range; Alexa behavior is not yet proven.
+
 # v2.1.0-alpha.910
 
 - Add the real Matter Laundry Washer device type (`0x0073`) with six named `Stufe 0`–`Stufe 5` washer modes.
