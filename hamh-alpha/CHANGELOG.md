@@ -1,3 +1,9 @@
+# v2.1.0-alpha.920
+
+- Add a Dishwasher Mode-only profile for the real fireplace flame-color select, with exactly Stufe 1–5 and no second Temperature Control range.
+- Reject Matter mode IDs outside 1–5 without sending a Home Assistant action.
+- Alexa's spoken rejection of unsupported stages still requires a live voice test after pairing.
+
 # v2.1.0-alpha.919
 
 - Expose only `Stufe 1`–`Stufe 5` for the experimental Dishwasher Mode and Temperature Control lists.
