@@ -1,4 +1,4 @@
-version: "2.1.0-alpha.922"
+version: "2.1.0-alpha.923"
 image: ghcr.io/charlie508010/home-assistant-matter-hub-fireplace-addon
 slug: charlie_matter_fireplace_alpha
 name: Charlie Matter Fireplace (Alpha)
